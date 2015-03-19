@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/start_qrcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/start_qrcode" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView 
+       	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:text="@string/start" />
+        
+        <TextView 
+        android:id="@+id/start_result"
+       	android:layout_width="fill_parent"
+       	android:textSize="18sp"
+       	android:textColor="@android:color/black"
+        android:layout_height="wrap_content" />
+    </LinearLayout>  
+    
+        <Button
+        android:id="@+id/end_qrcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/end_qrcode" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView 
+       	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:text="@string/end" />
+        
+        <TextView 
+        android:id="@+id/end_result"
+       	android:layout_width="fill_parent"
+       	android:textSize="18sp"
+       	android:textColor="@android:color/black"
+        android:layout_height="wrap_content" />
+    </LinearLayout>  
+
+</LinearLayout>
